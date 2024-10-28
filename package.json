@@ -1,0 +1,21 @@
+{
+  "name": "conceitos-node.js-2.0",
+  "version": "1.0.0",
+  "description": "Esse projeto é conceito novo de Node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "author": "SidemarSilva",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "axios": "^1.7.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.15.0"
+  }
+}
